@@ -13,5 +13,9 @@ arr.forEach(function(val){
 var ans = arr.map(function(val){ // take space of array you have maped and then it will add what you have returned
     return 13;
 })
+var val = arr.map(function(val){ // take space of array you have maped and then it will add what you have returned
+    return val;
+})
 
 console.log(ans)
+console.log(val)
