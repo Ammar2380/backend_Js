@@ -19,3 +19,11 @@ var val = arr.map(function(val){ // take space of array you have maped and then 
 
 console.log(ans)
 console.log(val)
+
+// filter
+var ans1 = arr.filter(function(val){
+   if (val > 3) {return true;}
+   else return false;
+})
+
+console.log(ans1)
